@@ -1,0 +1,54 @@
+* พื้นหลังด้านบน */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #d3d3d3;
+}
+
+/* เมนูนำทาง */
+nav {
+  background: linear-gradient(to right, #ffcc33, #ff6600);
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0057b7;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* ส่วน About */
+.about-section {
+  background-color: #d3d3d3;
+  padding: 40px;
+}
+
+.about-section h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.about-section h2 {
+  font-size: 1.2rem;
+  margin-top: 30px;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.about-section ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  font-size: 1rem;
+}
